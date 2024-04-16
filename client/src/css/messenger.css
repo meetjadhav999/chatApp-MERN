@@ -1,0 +1,84 @@
+.messenger{
+    height:calc(100vh - 70px);
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+.message-box{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.message-input{
+    height: 100px;
+    width: 100%;
+    resize: none;
+    overflow-y: scroll;
+    font-family: arial;
+    padding: 10px;
+
+}
+.message-input:focus-visible{
+    outline: none;
+}
+.send-btn{
+    color: white;
+    background-color: rgb(0, 81, 255);
+    margin: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.send-btn:hover{
+    background-color:rgb(0, 0, 219);
+
+}
+
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 150px);
+    overflow-y: scroll;
+
+}
+
+.message{
+    width: fit-content;
+    max-width: 60%;
+    height: auto;
+    background-color: rgb(228, 228, 228);
+    margin-top: 5px;
+    font-size: 1rem;
+    font-family: arial;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.own{
+    background-color: rgb(0, 136, 255);
+    color: white;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.message-text{
+    margin: 0;
+}
+.date{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.b{
+    color: rgb(53, 53, 53);
+}
+.w{
+    color: rgb(228, 228, 228);
+}
